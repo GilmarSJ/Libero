@@ -4,16 +4,16 @@ module.exports = {
     name: 'pix',
     description: 'Mostra os meios de pagamentos disponíveis na loja.',
     run: async (client, interaction) => {
-        const chave_pix = '(11) 98693-9657'
-        const email = 'diasperseghin@gmail.com'
-        //const qrcore = 'https://'
+        // const chave_pix = '(47) 9758-3723'
+        const email = 'cancunrpoficial@gmail.com'
+        // const qrcode = 'https://nubank.com.br/pagar/18oeta/HfhbkxE3gr'
 
         const PixEmbed = new Discord.EmbedBuilder()
-            .setColor('Aqua')
-            .setTitle('<:carrinho:1017542904941658252> Formas de pagamentos da DLS Hosting')
-            .setDescription(`Nós temos 2 meios de pagamentos, abaixo estará listado os meios e o que é necessário para pagar com tal meio.\n\n<:pix:1017546565486911638> **PIX CELULAR:** ${chave_pix}\n<:email:1017547059341033543> **PIX E-MAIL:** ${email}\n`)
-            //.setImage(qrcode)
-
+            .setColor('#56C0F0')
+            .setTitle('<:shopping_cart:1064562072844779664> Formas de Pagamentos')
+            .setDescription(`Nós temos uma forma de pagamento, abaixo estará listado os meios e o que é necessário para pagar com tal meio.\n<:email:1017547059341033543> **PIX E-MAIL:** ${email}\n`)
+            // .setImage(qrcode)
+            // \n\n<:vibration_mode:1064563067297484840> **PIX CELULAR:** ${chave_pix}
         interaction.reply({ embeds: [PixEmbed], ephemeral: false })
     }
 }

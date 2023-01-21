@@ -34,8 +34,8 @@ module.exports = {
             if (!normal_fala) normal_fala = "⠀";
 
             let embed = new Discord.EmbedBuilder()
-            .setColor("Aqua")
-            .setAuthor({ name: interaction.user.username, iconURL: interaction.user.displayAvatarURL({ dynamic: true }) })
+            .setColor("#56C0F0")
+            // .setAuthor({ name: interaction.user.username, iconURL: interaction.user.displayAvatarURL({ dynamic: true }) })
             .setDescription(embed_fala);
 
             if (embed_fala === "⠀") {

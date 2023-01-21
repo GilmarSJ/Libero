@@ -1,4 +1,7 @@
 {
-    "prefix": "L!",
-    "token":"MTAxMzk0MjU0NTkyNTAzNDA4NA.GJEFg0.1QpQ70A3QFdxV3q8geX_FCqIehzOzCWdPjiwJc"
+    "prefix": "c!",
+    "token":"MTAxMzk0MjU0NTkyNTAzNDA4NA.Grlw4c.e9bSnwTFwxFMrcgaSGJeqj8vLlHlepoUq_oysE",
+    "ticketChannelId":"1063819267562283098",
+    "adminChannelId":"1063819323803717632",
+    "ticketPrefix":"!ticket"
 }
